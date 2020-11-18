@@ -34,7 +34,7 @@
         tools:layout_height="300dp"
         android:layout_gravity="center_horizontal|top"
         android:clickable="true"
-        app:layout_behavior="@string/top_sheet_behavior"
+        app:layout_behavior="@string/top_sheet_behavior_new"
         style="@style/Widget.Design.TopSheet.Modal"
         android:focusable="true" />
 
