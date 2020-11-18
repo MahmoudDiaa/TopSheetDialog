@@ -9,7 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/TopSheetDialog" />
+            <option value="$PROJECT_DIR$/TopSheetDialogLibrary" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
