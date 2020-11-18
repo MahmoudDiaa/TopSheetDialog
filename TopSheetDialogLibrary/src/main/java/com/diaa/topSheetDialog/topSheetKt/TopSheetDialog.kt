@@ -40,7 +40,7 @@ class TopSheetDialog : AppCompatDialog {
         super.setContentView(wrapInTopSheet(layoutResId, null, null))
     }
 
-    override fun onCreate(savedInstanceState: Bundle) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window!!.setLayout(
             ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT
