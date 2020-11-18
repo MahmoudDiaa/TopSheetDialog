@@ -3,9 +3,9 @@
 [![](https://jitpack.io/v/MahmoudDiaa/TopSheetDialog.svg)](https://jitpack.io/#MahmoudDiaa/TopSheetDialog)
 
 
-## To add my library to your android project
+# To add my library to your android project
 
-# Add it in your root build.gradle at the end of repositories:
+## Add it in your root build.gradle at the end of repositories:
 
 allprojects
 {
