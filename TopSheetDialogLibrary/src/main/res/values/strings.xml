@@ -1,5 +1,5 @@
 <resources>
 
-    <string name="top_sheet_behavior" translatable="false">com.ekc.macka.utils.topSheet.TopSheetBehavior</string>
+    <string name="top_sheet_behavior" translatable="false">com.diaa.topSheetDialog.topSheetKt.TopSheetBehavior</string>
 
 </resources>
