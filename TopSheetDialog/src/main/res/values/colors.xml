@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+    <color name="attachmentBackgroundColor">#f5f7ff</color>
+    <color name="dialogAttachmentBackgroundColor">#71000000</color>
+
+    <color name="orange">#ff9800</color>
+    <color name="orangeDark">#c66900</color>
+    <color name="backgroundFieldName">#eaf1f7</color>
+    <color name="textColorFieldName">#000000</color>
+
+
+    <color name="background_dark">#455edd</color>
+    <color name="background_light">#7590fa</color>
+    <color name="transparent">#00b8860b</color>
+
+    <color name="ssss">#f2f0e5</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="green">#00FF00</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#c7cc00</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0070FF</color>
+    <color name="purple">#4a148c</color>
+
+    <color name="grey">#707070</color>
+    <color name="dark_grey">#454545</color>
+
+    <color name="bg_grey_light">#e0e0e0</color>
+</resources>

@@ -1,0 +1,3 @@
+rootProject.name = "TopSheetDialog"
+include ':app'
+include ':TopSheetDialog'
