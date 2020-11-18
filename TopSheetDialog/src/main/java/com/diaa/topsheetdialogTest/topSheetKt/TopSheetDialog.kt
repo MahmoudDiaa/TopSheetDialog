@@ -1,4 +1,4 @@
-package com.diaa.topsheetdialog.topSheetKt
+package com.diaa.topsheetdialogTest.topSheetKt
 
 import android.content.Context
 import android.content.DialogInterface
@@ -12,7 +12,7 @@ import androidx.annotation.LayoutRes
 import androidx.annotation.StyleRes
 import androidx.appcompat.app.AppCompatDialog
 import androidx.coordinatorlayout.widget.CoordinatorLayout
-import com.diaa.topsheetdialog.R
+import com.diaa.topsheetdialogTest.R
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 
 class TopSheetDialog : AppCompatDialog {
