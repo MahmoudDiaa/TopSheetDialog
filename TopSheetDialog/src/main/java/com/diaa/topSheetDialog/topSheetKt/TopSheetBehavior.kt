@@ -1,4 +1,4 @@
-package com.diaa.topsheetdialogTest.topSheetKt
+package com.diaa.topSheetDialog.topSheetKt
 
 import android.content.Context
 import android.os.Build
@@ -13,7 +13,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.NestedScrollingChild
 import androidx.core.view.ViewCompat
 import androidx.customview.widget.ViewDragHelper
-import com.diaa.topsheetdialogTest.R
+import com.diaa.topSheetDialog.R
 import java.lang.ref.WeakReference
 import kotlin.math.abs
 import kotlin.math.max
