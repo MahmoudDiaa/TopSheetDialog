@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TopSheetDialog</string>
+    <string name="open_top_sheet">open top sheet</string>
 </resources>

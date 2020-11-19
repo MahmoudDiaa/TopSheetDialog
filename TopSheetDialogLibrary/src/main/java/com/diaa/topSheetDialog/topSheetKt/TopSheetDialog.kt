@@ -3,6 +3,7 @@ package com.diaa.topSheetDialog.topSheetKt
 import android.content.Context
 import android.content.DialogInterface
 import android.os.Bundle
+import android.util.Log
 import android.util.TypedValue
 import android.view.View
 import android.view.ViewGroup
@@ -87,10 +88,10 @@ class TopSheetDialog : AppCompatDialog {
         return coordinator
     }
 
+
+
     private fun shouldWindowCloseOnTouchOutside() {
-//        if (true) {
-//            return true;
-//        }
+
         val value = TypedValue()
         context.theme
             .resolveAttribute(android.R.attr.windowCloseOnTouchOutside, value, true)
@@ -107,10 +108,18 @@ class TopSheetDialog : AppCompatDialog {
                 }
             }
 
-            override fun onSlide(topSheet: View, slideOffset: Float, isOpening: Boolean?) {}
+            override fun onSlide(topSheet: View, slideOffset: Float, isOpening: Boolean?) {
+                if (slideOffset < 0.0000000001 && !isOpening!!) {
+                    dismiss()
+                    Log.e(TAG, "onSlide:dismiss " )
+
+                }
+
+            }
         }
 
     companion object {
+        private const val TAG = "TopSheetDialog"
         private fun getThemeResId(context: Context, themeId: Int): Int {
             var themeId = themeId
             if (themeId == 0) {
