@@ -111,7 +111,6 @@ class TopSheetDialog : AppCompatDialog {
             override fun onSlide(topSheet: View, slideOffset: Float, isOpening: Boolean?) {
                 if (slideOffset < 0.0000000001 && !isOpening!!) {
                     dismiss()
-                    Log.e(TAG, "onSlide:dismiss " )
 
                 }
 
