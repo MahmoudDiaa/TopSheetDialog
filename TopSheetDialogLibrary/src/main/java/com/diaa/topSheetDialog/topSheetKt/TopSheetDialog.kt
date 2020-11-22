@@ -89,7 +89,6 @@ class TopSheetDialog : AppCompatDialog {
     }
 
 
-
     private fun shouldWindowCloseOnTouchOutside() {
 
         val value = TypedValue()
