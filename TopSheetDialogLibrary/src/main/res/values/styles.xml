@@ -4,6 +4,7 @@
     <style name="Widget.Design.TopSheet.Modal" parent="android:Widget">
         <item name="android:elevation">@dimen/top_sheet_modal_elevation</item>
         <item name="behavior_peekHeight">@dimen/top_sheet_modal_peek_height</item>
+        <item name="android:background">#fff</item>
         <item name="behavior_hideable">true</item>
     </style>
     <style name="Animation.Design.TopSheetDialog" parent="Animation.AppCompat.Dialog">
